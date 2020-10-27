@@ -1,1 +1,3 @@
-# Sample code for Bootstrap book
+# Bootstrap book by Ei Maung
+
+## Sample codes
