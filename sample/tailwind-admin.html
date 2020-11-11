@@ -12,7 +12,9 @@
 </head>
 <body class="bg-gray-300">
     <div class="container max-w-full flex">
-        <nav class="bg-gray-300 w-2/12">
+        
+        <!-- LEFT SIDEBAR -->
+        <nav class="bg-gray-300 w-2/12"> 
             <div class="lg:p-4 mt-4">
                 <h1 class="text-3xl lg:text-xl font-bold text-teal-500 text-center lg:text-left">
                     <i class="fas fa-ghost"></i>
@@ -66,9 +68,13 @@
                     </a>
                 </li>
             </ul>
-        </nav>
-        <main class="bg-gray-700 w-10/12">
-            <nav class="flex p-4 bg-gray-800 mb-8">
+        </nav> <!-- LEFT SIDEBAR -->
+
+        <!-- MAIN AREA -->
+        <main class="bg-gray-700 w-10/12"> 
+
+            <!-- TOP NAV BAR -->
+            <nav class="flex p-4 bg-gray-800 mb-8"> 
                 <input type="search" class="rounded lg:w-4/12 p-2 focus:outline-none">
                 <button class="ml-4">
                     <i class="fas fa-search text-white"></i>
@@ -80,13 +86,15 @@
                 <button class="mr-4">
                     <i class="fas fa-cog text-white"></i>
                 </button>
-            </nav>
+            </nav> <!-- TOP NAV BAR -->
 
+            <!-- ALERT -->
             <div class="m-4 p-4 bg-blue-200 border rounded border-blue-400 text-blue-700">
                 <i class="fas fa-download mr-4"></i>
                 A new version available. <a href="#" class="text-teal-500 underline">Download</a>
             </div>
 
+            <!-- QUICK STAT CARDS -->
             <div class="flex flex-col lg:flex-row">
                 <div class="m-4 lg:w-3/12 p-4 rounded shadow border bg-white">
                     <h3 class="text-3xl font-bold">1,250</h3>
@@ -119,8 +127,9 @@
                         Yearly visitors
                     </span>
                 </div>
-            </div>
+            </div>  <!-- QUICK STAT CARDS -->
 
+            <!-- PROGRESSES & TABLE CARDS -->
             <div class="flex flex-col lg:flex-row">
                 <div class="lg:w-1/2 p-4 m-4 bg-white rounded shadow border">
                     <div class="mb-4">
@@ -183,8 +192,9 @@
                         </tr>
                     </table>
                 </div>
-            </div>
-        </main>
+
+            </div>  <!-- PROGRESSES & TABLE CARDS -->
+        </main>  <!-- MAIN AREA -->
     </div>
 </body>
 </html>
