@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Admin</title>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.5/dist/base.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.5/dist/components.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.5/dist/utilities.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+</head>
+<body class="bg-gray-300">
+    <div class="container max-w-full flex">
+        <nav class="bg-gray-300 w-2/12">
+            <div class="lg:p-4 mt-4">
+                <h1 class="text-3xl lg:text-xl font-bold text-teal-500 text-center lg:text-left">
+                    <i class="fas fa-ghost"></i>
+                    <span class="hidden lg:inline ml-4">GHOST ADMIN</span>
+                </h1>
+            </div>
+            <ul class="rounded m-4 bg-white text-center lg:text-left">
+                <li class="border-b">
+                    <a href="#" class="block text-teal-500 font-bold p-4">
+                        <i class="fas fa-home"></i>
+                        <span class="hidden lg:inline ml-4">Dashboard</span>
+                    </a>
+                </li>
+                <li class="border-b">
+                    <a href="#" class="block p-4">
+                        <i class="fas fa-users"></i>
+                        <span class="hidden lg:inline ml-4">Users</span>
+                    </a>
+                </li>
+                <li class="border-b">
+                    <a href="#" class="block p-4">
+                        <i class="fas fa-chart-line"></i>
+                        <span class="hidden lg:inline ml-4">Satistics</span>
+                    </a>
+                </li>
+                <li class="border-b">
+                    <a href="#" class="block p-4">
+                        <i class="fas fa-flag"></i>
+                        <span class="hidden lg:inline ml-4">Reports</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="rounded m-4 bg-white text-center lg:text-left">
+                <li class="border-b">
+                    <a href="#" class="block p-4">
+                        <i class="fas fa-user"></i>
+                        <span class="hidden lg:inline ml-4">New User</span>
+                    </a>
+                </li>
+                <li class="border-b">
+                    <a href="#" class="block p-4">
+                        <i class="fas fa-edit"></i>
+                        <span class="hidden lg:inline ml-4">Update Data</span>
+                    </a>
+                </li>
+                <li class="border-b">
+                    <a href="#" class="block p-4">
+                        <i class="far fa-calendar-alt"></i>
+                        <span class="hidden lg:inline ml-4">Add Event</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <main class="bg-gray-700 w-10/12">
+            <nav class="flex p-4 bg-gray-800 mb-8">
+                <input type="search" class="rounded lg:w-4/12 p-2 focus:outline-none">
+                <button class="ml-4">
+                    <i class="fas fa-search text-white"></i>
+                </button>
+                <div class="flex-1"></div>
+                <button class="mr-6">
+                    <i class="fas fa-user-circle text-white"></i>
+                </button>
+                <button class="mr-4">
+                    <i class="fas fa-cog text-white"></i>
+                </button>
+            </nav>
+
+            <div class="m-4 p-4 bg-blue-200 border rounded border-blue-400 text-blue-700">
+                <i class="fas fa-download mr-4"></i>
+                A new version available. <a href="#" class="text-teal-500 underline">Download</a>
+            </div>
+
+            <div class="flex flex-col lg:flex-row">
+                <div class="m-4 lg:w-3/12 p-4 rounded shadow border bg-white">
+                    <h3 class="text-3xl font-bold">1,250</h3>
+                    <span class="text-teal-500">
+                        <i class="fas fa-chart-line"></i>
+                        Daily visitors
+                    </span>
+                </div>
+
+                <div class="m-4 lg:w-3/12 p-4 rounded shadow border bg-white">
+                    <h3 class="text-3xl font-bold">8,210</h3>
+                    <span class="text-teal-500">
+                        <i class="fas fa-chart-line"></i>
+                        Weekly visitors
+                    </span>
+                </div>
+
+                <div class="m-4 lg:w-3/12 p-4 rounded shadow border bg-white">
+                    <h3 class="text-3xl font-bold">12,560</h3>
+                    <span class="text-teal-500">
+                        <i class="fas fa-chart-line"></i>
+                        Monthly visitors
+                    </span>
+                </div>
+
+                <div class="m-4 lg:w-3/12 p-4 rounded shadow border bg-white">
+                    <h3 class="text-3xl font-bold">102,250</h3>
+                    <span class="text-teal-500">
+                        <i class="fas fa-chart-line"></i>
+                        Yearly visitors
+                    </span>
+                </div>
+            </div>
+
+            <div class="flex flex-col lg:flex-row">
+                <div class="lg:w-1/2 p-4 m-4 bg-white rounded shadow border">
+                    <div class="mb-4">
+                        <div class="mb-1 text-gray-600">Regional</div>
+                        <div class="bg-gray-400">
+                            <div class="w-20 h-2 bg-blue-500"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="mb-1 text-gray-600">Local</div>
+                        <div class="bg-gray-400">
+                            <div class="w-40 h-2 bg-purple-500"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="mb-1 text-gray-600">Global</div>
+                        <div class="bg-gray-400">
+                            <div class="w-56 h-2 bg-green-500"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="mb-1 text-gray-600">Internal</div>
+                        <div class="bg-gray-400">
+                            <div class="w-40 h-2 bg-red-500"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2 p-4 m-4 bg-white rounded shadow border prose">
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Age Group</th>
+                            <th>Data</th>
+                            <th>Progress</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>20-30</td>
+                            <td>19%</td>
+                            <td><i class="fas fa-chart-pie"></i></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>30-40</td>
+                            <td>40%</td>
+                            <td><i class="fas fa-chart-bar"></i></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>40-50</td>
+                            <td>20%</td>
+                            <td><i class="fas fa-chart-line"></i></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>>50</td>
+                            <td>11%</td>
+                            <td><i class="fas fa-chart-pie"></i></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
